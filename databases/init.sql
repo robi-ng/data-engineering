@@ -16,7 +16,8 @@ CREATE TABLE items (
     item_id SERIAL PRIMARY KEY,
     item_name VARCHAR(100) NOT NULL,
     item_cost FLOAT NOT NULL,
-    item_weight FLOAT NOT NULL
+    item_weight FLOAT NOT NULL,
+    deleted_at TIMESTAMP NULL
 );
 
 CREATE TABLE transactions (
@@ -24,7 +25,8 @@ CREATE TABLE transactions (
     membership_id VARCHAR(100) REFERENCES memberships(membership_id),
     manufacturer_id INT REFERENCES manufacturers(manufacturer_id),
     total_items_cost FLOAT NOT NULL,
-    total_items_weight FLOAT NOT NULL
+    total_items_weight FLOAT NOT NULL,
+    transaction_status VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE transacted_items (
