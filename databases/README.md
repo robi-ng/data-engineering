@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project showcases using docker to initialise PostgreSQL instance with database tables suitable for e-commerce transactions.
+This section showcases using docker to initialise PostgreSQL instance with database tables suitable for e-commerce transactions.
 
 The entity-relationship diagram is shown below.
 

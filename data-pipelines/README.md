@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project runs data pipeline of e-commerce membership data by reading csv files located in `raw-data` folder.
+This section runs data pipeline of e-commerce membership data by reading csv files located in `raw-data` folder.
 
 ## How to run
 
